@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -132,6 +133,10 @@ body {
     width: 100%
 }
 
+.profile-image-wrapper{
+    max-width:  300px;
+}
+
 .profile-content-wrapper {
     padding: 30px;
 }
@@ -141,18 +146,25 @@ body {
 }
 /* About page */
 .two-column-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    
 }
 .profile-image-wrapper img {
     width: 100%;
 }
 .profile-content-wrapper {
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 .profile-content-wrapper h1 {
-    color: lightseagreen
+    color: lightseagreen;
+    margin-top: 0px;
 }
-
-
+.skillslist{
+    display:flex;
+    justify-content: space-between;
+}
+.worklist{
+    display:flex;
+    justify-content: space-between;
+}
 
